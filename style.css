@@ -354,6 +354,9 @@ span {
         0 0 50px var(--main-color);
     transform: scale(1.02);
 }
+.btn a{
+    color: black;
+}
 
 .projects-card img {
     max-width: 18vw;
