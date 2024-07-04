@@ -296,6 +296,10 @@ span {
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
 }
+.reach{
+    align-items: center;
+    justify-content: center;
+}
 
 .about-img img:hover {
     box-shadow: 0 0 25px var(--main-color),
@@ -831,6 +835,29 @@ span {
 
 .footer ul li a:hover {
     border-bottom: 3px solid var(--main-color);
+}
+
+.footer .contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .contact-info p {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+
+.footer .contact-info p i {
+    margin-right: 8px;
+    font-size: 1.5rem;
+   
+    color: var(--main-color);
+}
+
+.footer .contact-info p span {
+    font-weight: bold;
+    color: var(--main-color);
 }
 
 .footer .copyright {
